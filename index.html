@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <link href="style.css" rel="stylesheet" type="text/css" />
+   <title>IHD amoCRM</title>
+  </head>
+  <body>
+    <!-- ШАПКА -->
+    <header>
+      <div id="menu"> 
+        <img src="logo.png" alt="logo">
+        <nav class="nav right">
+         <ul>
+          <li><a href="/main">Главная</a></li>
+          <li><a href="/about">О нас</a></li>
+          <li><a href="/contacts">Контакты</a></li>
+         </ul>
+        </nav>
+        <div id="social">
+          <ul>
+            <li><a href="https://wa.me/79205187884">
+            <img src="wa1.png" alt="Иконка WA"></a></li>
+            <li><a href="https://teleg.run/ihdigital_ru">
+            <img src="tg.png" alt="Иконка TG"></a></li>
+            
+          </ul>
+        </div>
+        <div class="phone">
+          <a href="tel:+79205187884">+7 920 518 7884</a>
+        </div>
+        <!-- POPUP -->
+        <div class="button"><a href="#" id="open_pop_up">Оставить заявку</a></div>
+          <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+              <div class="pop_up_body" id="pop_up_body">
+                <p>Оставить заявку</p>
+                <form action="">
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Телефон">
+                  <button>Отправить</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </header>
+   <div class="main"id="main">
+    <h1> Настройка amoCRM </h1>
+    <h2> Официальный партнёр amoCRM!</h2>
+    <form action="" method="get" class="form">
+    <div>
+      <label for="name">Введите имя: </label>
+      <input type="text" name="name" id="name" required />
+    </div>
+    <div class="form-phone">
+      <label for="phone">Введите телефон: </label>
+      <input type="phone" name="phone" id="phone" required />
+    </div>
+    <div class="form-button">
+      <input type="submit" value="Отправить" />
+    </div>
+   </form>
+   </div>
+   <script src="script.js"></script>
+  </body>
+
+</html>
